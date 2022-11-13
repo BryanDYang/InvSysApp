@@ -46,15 +46,15 @@ public class MainFormController implements Initializable {
 
     /** Inventory column of the parts table. */
     @FXML
-    private TableColumn<?, ?> partInvCol;
+    private TableColumn<Part, Integer> partInvCol;
 
     /** Name column of the parts table. */
     @FXML
-    private TableColumn<?, ?> partNameCol;
+    private TableColumn<Part, String> partNameCol;
 
     /** Price column of the parts table. */
     @FXML
-    private TableColumn<?, ?> partPriceCol;
+    private TableColumn<Part, Double> partPriceCol;
 
     /** Search text field for the parts. */
     @FXML
@@ -66,19 +66,19 @@ public class MainFormController implements Initializable {
 
     /** ID column of the product table. */
     @FXML
-    private TableColumn<?, ?> prodIdCol;
+    private TableColumn<Product, Integer> prodIdCol;
 
     /** Inventory column of the product table. */
     @FXML
-    private TableColumn<?, ?> prodInvCol;
+    private TableColumn<Product, Integer> prodInvCol;
 
     /** Name column of the product table. */
     @FXML
-    private TableColumn<?, ?> prodNameCol;
+    private TableColumn<Product, String> prodNameCol;
 
     /** Price column of the product table. */
     @FXML
-    private TableColumn<?, ?> prodPriceCol;
+    private TableColumn<Product, Double> prodPriceCol;
 
     /** Search text filed of the product table. */
     @FXML

@@ -216,7 +216,7 @@ public class AddProductFormController implements Initializable {
             int id = 0;
             String name = prodNameTxt.getText();
             Double price = Double.parseDouble(prodPriceTxt.getText());
-            int stock = Integer.parseInt(prodIdTxt.getText());
+            int stock = Integer.parseInt(prodInvTxt.getText());
             int min = Integer.parseInt(prodMinTxt.getText());
             int max = Integer.parseInt(prodMaxTxt.getText());
 

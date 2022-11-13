@@ -412,6 +412,7 @@ public class ModifyProductFormController implements Initializable {
         prodIdTxt.setText(String.valueOf(selectedProduct.getId()));
         prodNameTxt.setText(selectedProduct.getName());
         prodInvTxt.setText(String.valueOf(selectedProduct.getStock()));
+        prodPriceTxt.setText(String.valueOf(selectedProduct.getPrice()));
         prodMaxTxt.setText(String.valueOf(selectedProduct.getMax()));
         prodMinTxt.setText(String.valueOf(selectedProduct.getMin()));
 

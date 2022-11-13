@@ -4,34 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd93baac-760a-42e9-82af-18f0e4c6de0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AddPartFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AddProductFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/MainFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ModifyPartFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ModifyProductFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/InHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Outsourced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Part.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/AddPartForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/AddProductForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/MainForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ModifyPartForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/ModifyProductForm.fxml" afterDir="false" />
+    <list default="true" id="dd93baac-760a-42e9-82af-18f0e4c6de0a" name="Changes" comment="Final Update2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/AddProductFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/AddProductFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MainFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MainFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ModifyPartFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ModifyPartFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ModifyProductFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ModifyProductFormController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +90,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667853025471</updated>
     </task>
+    <task id="LOCAL-00001" summary="Final Update2">
+      <created>1668184521381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668184521381</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,5 +110,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final Update2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Update2" />
   </component>
 </project>

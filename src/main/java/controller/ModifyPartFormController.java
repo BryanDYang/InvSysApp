@@ -37,9 +37,9 @@ public class ModifyPartFormController implements Initializable {
     @FXML
     private Label partIdNameLbl;
 
-    /** Part ID name text field. */
+    /** Part name text field. */
     @FXML
-    private TextField partIdNameTxt;
+    private TextField partNameTxt;
 
     /** Part ID text field. */
     @FXML
@@ -57,9 +57,10 @@ public class ModifyPartFormController implements Initializable {
     @FXML
     private TextField partMinTxt;
 
-    /** Part name text field. */
+    /** Machine ID/Company Name text field. */
     @FXML
-    private TextField partNameTxt;
+    private TextField partIdNameTxt;
+
 
     /** Part price text field. */
     @FXML
@@ -124,7 +125,7 @@ public class ModifyPartFormController implements Initializable {
             int id = selectedPart.getId();
             String name = partNameTxt.getText();
             Double price = Double.parseDouble(partPriceTxt.getText());
-            int stock = Integer.parseInt(partMinTxt.getText());
+            int stock = Integer.parseInt(partInvTxt.getText());
             int min = Integer.parseInt(partMinTxt.getText());
             int max = Integer.parseInt(partMaxTxt.getText());
             int machineId;
@@ -142,6 +143,13 @@ public class ModifyPartFormController implements Initializable {
                     }catch(Exception e){
                         displayAlert(2);
                     }
+                }
+
+                if (outsourcedRBtn.isSelected()){
+                    companyName = partIdNameTxt.getText();
+                    Outsourced newOutsourcedPart = new Outsourced(id, name, price, stock, min, max, companyName);
+                    Inventory.addPart(newOutsourcedPart);
+                    partAddSuccessful = true;
                 }
 
                 if(partAddSuccessful){
@@ -260,6 +268,7 @@ public class ModifyPartFormController implements Initializable {
 
         selectedPart = MainFormController.getPartToModify();
 
+
         if(selectedPart instanceof InHouse){
             inHouseRBtn.setSelected(true);
             partIdNameLbl.setText("Machine ID");
@@ -273,7 +282,7 @@ public class ModifyPartFormController implements Initializable {
         }
 
         partIdTxt.setText(String.valueOf(selectedPart.getId()));
-        partIdNameTxt.setText(selectedPart.getName());
+        partNameTxt.setText(selectedPart.getName());
         partInvTxt.setText(String.valueOf(selectedPart.getStock()));
         partPriceTxt.setText(String.valueOf(selectedPart.getPrice()));
         partMinTxt.setText(String.valueOf(selectedPart.getMin()));
